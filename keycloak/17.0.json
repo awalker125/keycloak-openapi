@@ -3,10 +3,10 @@
   "info": {
     "title": "Keycloak Admin REST API",
     "description": "This is a REST API reference for the Keycloak Admin",
-    "version": "1"
+    "version": "17.0"
   },
   "paths": {
-    "/": {
+    "/admin/realms": {
       "get": {
         "tags": [
           "Root"
@@ -2555,7 +2555,7 @@
         "tags": [
           "Clients"
         ],
-        "summary": "Get clients belonging to the realm   Returns a list of clients belonging to the realm",
+        "summary": "Get clients belonging to the realm.",
         "parameters": [
           {
             "in": "query",
